@@ -1,0 +1,101 @@
+.hero {
+  position: absolute;
+  height: 89vh;
+  width: 60%;
+  box-shadow: 3px 3px 3px 2px gray;
+  background-color: #00539f;
+}
+.hero_content {
+  width: 40%;
+  position: relative;
+  top: 5em;
+  left: 25%;
+}
+.hero_content h1 {
+  margin: 0.5em 0.5em;
+  color: white;
+  text-transform: capitalize;
+  font-family: "Dancing Script";
+}
+.hero_content h2 {
+  color: rgb(60, 179, 114);
+  margin: 1em 1em;
+  text-transform: capitalize;
+}
+.shapes {
+  width: 309px;
+  height: 300px;
+  position: absolute;
+  top: 0em;
+  left: 28.9em;
+  display: flex;
+}
+.shapes_1 {
+  width: 309px;
+  height: 350px;
+  position: absolute;
+  top: 0em;
+  left: 23em;
+  display: flex;
+}
+
+.square {
+  width: 200px;
+  height: 80px;
+  border-radius: 10px;
+  border: 1px solid black;
+  box-shadow: 3px 3px 3px 3px rgba(5, 5, 5, 0.55);
+  background-color: #00539f;
+  margin: 0em 0.2em;
+}
+#square_1 {
+  background: #fcfcfc;
+  position: relative;
+  top: 4.5em;
+}
+#square_2 {
+  background: #2c192b;
+  position: relative;
+  top: 4.5em;
+}
+#square_3
+{
+  position: relative;
+  top: 10em;
+  background:#2c192b;
+}
+#square_4
+{
+  position: relative;
+  top: 10em;
+  background:#00539f;
+}
+#square_5
+{
+  position: relative;
+  top: 14.5em;
+  background: #fcfcfc;
+}
+.scrolls
+{
+margin-left: 1.5em;
+width: fit-content;
+}
+.ellipse
+{
+  border: 3px solid white;
+  width: 20px;
+  height: 50px;
+  border-radius: 20px;
+  background: transparent;
+}
+.circle
+{
+  margin: 0.2em 0.2em;
+  width: 15x;
+  height: 15px;
+  border-radius: 50%;
+  background-color: white;
+  position: relative;
+  top: -3em;
+}

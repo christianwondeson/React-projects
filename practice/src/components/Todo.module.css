@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&family=League+Gothic&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&family=League+Gothic&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "League Gothic", monospace;
+}
+.logo {
+  border: 1px solid black;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  top: 10px;
+  margin-left: 2em;
+}
+.main {
+  background: #084c8b;
+  box-shadow: 3px 3px 3px 3px grey;
+  width: 60%;
+}
+.navBar {
+  position: absolute;
+}
+.unorder {
+  display: flex;
+  padding: 0em 1em;
+}
+.unorder li {
+  list-style: none;
+  padding: 0.5em 2em;
+  position: relative;
+  top: -20px;
+  left: 21%;
+}
+.unorder li:hover
+{
+border-radius: 5px;
+background: teal;
+transition: all ease-in 0.6s;
+}
+.unorder li a {
+  text-decoration: none;
+  font-size: 22px;
+  text-transform: capitalize;
+  color: #fcfcfc;
+}
