@@ -1,11 +1,19 @@
-import Todo from './components/Todo';
+import Welcome from "./components/welcome";
+import Home from "./components/Home";
+
+import "./index.css";
+
+import { Routes, BrowserRouter as Router, Route } from "react-router-dom";
+
 function App() {
   return (
     <div>
-      <h1>My Todo's</h1>
-      <Todo text='Learn React' />
-      <Todo text='Master React' />
-      <Todo text='Explore the full React course' />
+      <Router>
+        <Routes>
+          <Route path="/" element={<Welcome />} />
+          <Route path="/Home" element={<Home />} />
+        </Routes>
+      </Router>
     </div>
   );
 }

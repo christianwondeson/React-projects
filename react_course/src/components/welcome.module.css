@@ -1,0 +1,182 @@
+.maincontent {
+  position: absolute;
+  float: left;
+  width: 400px;
+  padding: 40px;
+  transform: translate(10%, 20%);
+  background: rgba(15, 54, 59, 0.5);
+  box-sizing: border-box;
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 1);
+  border-radius: 10px;
+}
+.maincontent h1 {
+  margin: 0 0 30px;
+  padding: 0;
+  color: #fff;
+  text-transform: capitalize;
+  text-align: center;
+}
+.userbox {
+  position: relative;
+}
+.userbox input {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 15px;
+  margin-top: 1em;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  background-color: transparent;
+}
+.userbox label {
+  text-transform: capitalize;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 15px;
+  padding: -60px 0;
+  color: #fff;
+  pointer-events: none;
+  transition: 0.5s;
+}
+.maincontent form a {
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  cursor: pointer;
+  color: #03e9f3;
+  font-size: 18px;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: 0.5s;
+  margin-top: 10px;
+  letter-spacing: 4px;
+}
+.maincontent form button {
+  background: transparent;
+  border: none;
+  outline: none;
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  color: #03e9f3;
+  font-size: 18px;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: 0.5s;
+  margin-top: 10px;
+  letter-spacing: 4px;
+}
+.maincontent button:hover {
+  background-color: #03e9f4;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 15px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4,
+    0 0 100px #03e9f4;
+}
+
+.maincontent a:hover {
+  background-color: #03e9f4;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 15px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4,
+    0 0 100px #03e9f4;
+}
+
+.maincontent a span {
+  position: absolute;
+  display: block;
+}
+.maincontent a span:nth-child(1) {
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #03e9f3);
+  animation: btn-anime1 1s linear infinite;
+}
+@keyframes btn-anime1 {
+  0% {
+    left: -100%;
+  }
+  50%,
+  100% {
+    left: 100%;
+  }
+}
+.maincontent a span:nth-child(2) {
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(100deg, transparent, #03e9f3);
+  animation: btn-anime2 1s linear infinite;
+  animation-delay: 0.25s;
+}
+@keyframes btn-anime2 {
+  0% {
+    top: -100%;
+  }
+  50%,
+  100% {
+    top: 100%;
+  }
+}
+.maincontent a span:nth-child(3) {
+  bottom: 0;
+  right: -100%;
+  width: 200%;
+  height: 2px;
+  background: linear-gradient(130deg, transparent, #03e9f3);
+  animation: btn-anime3 1s linear infinite;
+  animation-delay: 0.44s;
+}
+@keyframes btn-anime3 {
+  0% {
+    right: -100%;
+  }
+  50%,
+  100% {
+    right: 100%;
+  }
+}
+.maincontent a span:nth-child(4) {
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(360deg, transparent, #03e9f3);
+  animation: btn-anime4 1s linear infinite;
+  animation-delay: 0.34s;
+}
+@keyframes btn-anime4 {
+  0% {
+    bottom: -200%;
+  }
+  50%,
+  100% {
+    bottom: 57%;
+  }
+}
+.welcome {
+  height: 100%;
+  width: 100%;
+}
+.image {
+  position: absolute;
+  top: 5%;
+  left: 150%;
+  width: 100%;
+  border-radius: 5px;
+  height: 80%;
+}
+.image:hover {
+  cursor: pointer;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1), all ease-in 0.5s;
+  transform: scale(1.1, 1.1);
+}
