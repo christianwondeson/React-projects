@@ -59,6 +59,7 @@
 .maincontent form button {
   background: transparent;
   border: none;
+  cursor: pointer;
   outline: none;
   position: relative;
   display: inline-block;
